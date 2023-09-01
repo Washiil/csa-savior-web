@@ -1,4 +1,9 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+	import hljs from 'highlight.js';
+	import 'highlight.js/styles/base16/dracula.css';
+	import { storeHighlightJs } from '@skeletonlabs/skeleton';
+	storeHighlightJs.set(hljs);
+</script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">

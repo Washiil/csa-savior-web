@@ -1,9 +1,5 @@
 <script lang="ts">
 	import { CodeBlock } from '@skeletonlabs/skeleton';
-	import 'highlight.js/styles/base16/dracula.css';
-	import hljs from 'highlight.js';
-	import { storeHighlightJs } from '@skeletonlabs/skeleton';
-	storeHighlightJs.set(hljs);
 </script>
 
 <div>

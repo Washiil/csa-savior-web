@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { goto } from '$app/navigation';
-	import { redirect } from '@sveltejs/kit';
 	import { AppShell, AppBar, TreeView, TreeViewItem, type TreeViewNode, LightSwitch } from '@skeletonlabs/skeleton';
 
 	let questions: Record<string, number[]> = {
