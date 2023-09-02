@@ -7,6 +7,8 @@
 			'2021': [1],
 			'2022': [1, 2, 3, 4],
 	}
+
+	export let data
 </script>
 
 <!-- App Shell -->
