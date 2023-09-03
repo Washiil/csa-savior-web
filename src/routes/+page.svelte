@@ -1,8 +1,5 @@
-<script>
-	import hljs from 'highlight.js';
-	import 'highlight.js/styles/base16/dracula.css';
-	import { storeHighlightJs } from '@skeletonlabs/skeleton';
-	storeHighlightJs.set(hljs);
+<script lang='ts'>
+	
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">
@@ -19,7 +16,7 @@
 			</a>
 		</div>
 		<div class="space-y-2">
-			
+			# Hello world
 		</div>
 	</div>
 </div>
@@ -27,15 +24,6 @@
 <style lang="postcss">
 	figure {
 		@apply flex relative flex-col;
-	}
-	figure svg,
-	.img-bg {
-		@apply w-64 h-64 md:w-80 md:h-80;
-	}
-	.img-bg {
-		@apply absolute z-[-1] rounded-full blur-[50px] transition-all;
-		animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite,
-			glow 5s linear infinite;
 	}
 	@keyframes glow {
 		0% {
